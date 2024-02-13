@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Branch_A_01
-  m_Shader: {fileID: 4800000, guid: 0fb6a7b98ed12ef4eba1fc10d31db175, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8736a1b0792be52448ea40b40986eee6, type: 3}
   m_ShaderKeywords: _ENABLEWIND_ON _ENABLEWORLDPROJECTION_ON _LOD_FADE_CROSSFADE_ON
     _PETE_ON _WORLDPROJECTION_ON
   m_LightmapFlags: 4
@@ -139,7 +140,7 @@ Material:
     - _ChromaticAberration: 0.189
     - _Contrastaa: 60
     - _Crop: 0.5
-    - _Cutoff: 0.4
+    - _Cutoff: 0.3
     - _DetailNormalMapScale: 1
     - _Distance: 200
     - _DstBlend: 0
@@ -187,6 +188,7 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 31.53
     - _SrcBlend: 1
+    - _Strenght: 2
     - _TESTTT: 1
     - _TTTT: 13.75
     - _TTTTIMEEE: 0
@@ -211,11 +213,13 @@ Material:
     - _TopOffset: 0.7
     - _TopSmoothness: 0.5
     - _TopUVScale: 2
-    - _TransAmbient: 0.3
-    - _TransDirect: 0.5
+    - _TransAmbient: 1
+    - _TransDirect: 0.8
+    - _TransNormal: 0.5
     - _TransNormalDistortion: 0.5
-    - _TransScattering: 2
+    - _TransScattering: 1
     - _TransShadow: 1
+    - _TransStrength: 1
     - _Translucency: 10
     - _TranslucencyAAA: 1
     - _TranslucencyDistance: 200
@@ -223,6 +227,7 @@ Material:
     - _Transmission: 10
     - _TransmissionDistance: 200
     - _TransmissionIntensity: 1
+    - _TransmissionShadow: 0.5
     - _UV: 71.43
     - _UVSec: 0
     - _VARIATION: 0

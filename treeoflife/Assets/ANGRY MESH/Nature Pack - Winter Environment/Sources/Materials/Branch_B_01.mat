@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Branch_B_01
-  m_Shader: {fileID: 4800000, guid: 0fb6a7b98ed12ef4eba1fc10d31db175, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8736a1b0792be52448ea40b40986eee6, type: 3}
   m_ShaderKeywords: _ENABLEWIND_ON _ENABLEWORLDPROJECTION_ON _LOD_FADE_CROSSFADE_ON
     _WORLDPROJECTION_ON
   m_LightmapFlags: 4
@@ -134,7 +134,7 @@ Material:
     - _EnableWorldProjection: 1
     - _Float0: 0
     - _Float0ttt: 1
-    - _Float1: 0
+    - _Float1: 0.677
     - _Float1a: 2
     - _Float2: 1
     - _Float3: 0
@@ -169,6 +169,7 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 0
     - _SrcBlend: 1
+    - _Strenght: 2
     - _TESTTT: 0.5
     - _TTTT: 2
     - _TTTTIMEEE: 0
@@ -189,14 +190,21 @@ Material:
     - _TopOffset: 0.3
     - _TopSmoothness: 0.5
     - _TopUVScale: 2
-    - _TransAmbient: 0.3
-    - _TransDirect: 0.5
+    - _TransAmbient: 1
+    - _TransDirect: 0.8
+    - _TransNormal: 0.5
     - _TransNormalDistortion: 0.45
     - _TransScattering: 1
     - _TransShadow: 1
+    - _TransStrenght: 3.28
+    - _TransStrenghtasdasdad: 5.36
+    - _TransStrength: 0.49
+    - _TransStrength1: 0.49
     - _Translucency: 12
+    - _TranslucencyStrenght: 9.2
     - _TransmissionDistance: 0
     - _TransmissionIntensity: 0
+    - _TransmissionShadow: 0.5
     - _UV: 0
     - _UVSec: 0
     - _UseWind: 1
@@ -238,6 +246,7 @@ Material:
     - __dirty: 0
     - _a: 1.7
     - _aaaa: 16.89
+    - _asdasd: 2.77
     - _freq: 14.8
     - _tuuuur: 0
     m_Colors:

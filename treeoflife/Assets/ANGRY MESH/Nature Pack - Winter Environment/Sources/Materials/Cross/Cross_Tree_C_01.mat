@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Cross_Tree_C_01
-  m_Shader: {fileID: 4800000, guid: 76c9ec5550cc074499b49e6440c59ae7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78318e6d65118c14899cd2e4dd98b802, type: 3}
   m_ShaderKeywords: _ENABLEWIND_ON _LOD_FADE_CROSSFADE_ON _WORLDPROJECTION_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 1

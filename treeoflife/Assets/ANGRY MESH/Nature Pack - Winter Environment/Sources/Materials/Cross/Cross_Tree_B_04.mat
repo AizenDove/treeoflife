@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Cross_Tree_B_04
-  m_Shader: {fileID: 4800000, guid: 76c9ec5550cc074499b49e6440c59ae7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78318e6d65118c14899cd2e4dd98b802, type: 3}
   m_ShaderKeywords: _ENABLEWIND_ON _LOD_FADE_CROSSFADE_ON _WORLDPROJECTION_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 1
@@ -103,6 +104,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _Amp: 0.78
     - _Ampl: 4.21
     - _BackFaceSnow: 0
@@ -160,7 +162,7 @@ Material:
     - _TopInt: 2.58
     - _TopIntensity: 1
     - _TopNormalIntensity: 1.044
-    - _TopOffset: 0.349
+    - _TopOffset: 0.5
     - _TopSmoothness: 1
     - _TopUVScale: 1
     - _TransAmbient: 0.2

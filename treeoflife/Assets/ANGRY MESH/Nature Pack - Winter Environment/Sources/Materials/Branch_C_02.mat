@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Branch_C_02
-  m_Shader: {fileID: 4800000, guid: 0fb6a7b98ed12ef4eba1fc10d31db175, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8736a1b0792be52448ea40b40986eee6, type: 3}
   m_ShaderKeywords: _ENABLEWIND_ON _ENABLEWORLDPROJECTION_ON _LOD_FADE_CROSSFADE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -147,6 +147,7 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
+    - _Strenght: 1
     - _TESTTT: 1
     - _TTTT: 13.75
     - _TTTTIMEEE: 1
@@ -164,15 +165,22 @@ Material:
     - _TopSmoothness: 0.387
     - _TopUVScale: 4.4
     - _Trans: 1
-    - _TransAmbient: 0.5
-    - _TransDirect: 0.2
+    - _TransAmbient: 1
+    - _TransDirect: 1
+    - _TransNormal: 0.2
     - _TransNormalDistortion: 0.5
     - _TransScattering: 1
     - _TransShadow: 1
+    - _TransStrenght: 0
+    - _TransStrenghtasdasdad: 0
+    - _TransStrength: 1
+    - _TransStrength1: 0
     - _Translucency: 1.8
+    - _TranslucencyStrenght: 0
     - _Transmission: 1.64
     - _TransmissionDistance: 300
     - _TransmissionIntensity: 10
+    - _TransmissionShadow: 0.5
     - _UVSec: 0
     - _Wind: 0
     - _WindIntensity: 1
@@ -203,6 +211,7 @@ Material:
     - __dirty: 0
     - _a: 1.7
     - _aaaa: 16.89
+    - _asdasd: 0
     - _freq: 14.8
     m_Colors:
     - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}

@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Grass_A_01
-  m_Shader: {fileID: 4800000, guid: c4f262adea87569478839b5a2dd29b8a, type: 3}
+  m_Shader: {fileID: 4800000, guid: fa42abba43233de4bac551c9b440ab0b, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _EMISSION _ENABLEWIND_ON _GRASSSIZE_ON _GRASSTINT_ON
     _MOTIONNOISE_ON _MOTIONSPACE_WORLD _NORMALMAP _RENDERTYPE_CUT
   m_LightmapFlags: 4
@@ -103,6 +104,7 @@ Material:
     - _ADSStandardLitGrass: 1
     - _AOIntensity: 1
     - _Advanced: 0
+    - _AlphaCutoff: 0.5
     - _BackFaceSnow: 1
     - _BaseBottomOffset: 0.3
     - _BaseNormalIntensity: 1.968
@@ -151,7 +153,7 @@ Material:
     - _Specular: 0.413
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strenght: 1.5
+    - _Strenght: 6.24
     - _Surafce: 0
     - _TintNoiseContrast: 10
     - _TintNoiseTile: 10
@@ -166,6 +168,8 @@ Material:
     - _Transmission: 1
     - _TransmissionDistance: 500
     - _TransmissionIntensity: 0.65
+    - _TransmissionShadow: 1
+    - _TransmissionStrenght: 2
     - _UVSec: 0
     - _WindAmplitude: 0.5
     - _WindGrassStiffness: 1

@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Plank_A_01
-  m_Shader: {fileID: 4800000, guid: dcdc5bbf57b976140bbdbc9ca4b61e40, type: 3}
+  m_Shader: {fileID: 4800000, guid: 83e28ab722c90f348b7bc2ceece22391, type: 3}
   m_ShaderKeywords: _WIND_ON _WORLDPROJECTION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
