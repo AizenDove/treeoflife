@@ -472,6 +472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstPersonController
       objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -617,6 +622,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Voice Cave
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769277793014324298, guid: 84769f6331f754746824fe6f5740c045,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8874457822745188895, guid: 84769f6331f754746824fe6f5740c045,
         type: 3}
