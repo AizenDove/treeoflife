@@ -22,8 +22,11 @@ public class SceneBy : MonoBehaviour
         
     }
 
+
+
     private void OnTriggerEnter(Collider HitBox)
     {
+        Debug.Log("hej");
         SceneManager.LoadScene(nameOfScene);
     }
 }
