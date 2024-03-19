@@ -5754,7 +5754,7 @@ PrefabInstance:
     - target: {fileID: 3200589871928257291, guid: a8e53866588b7724eade220c16a4658c,
         type: 3}
       propertyPath: nameOfScene
-      value: Fin
+      value: END DEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4236004580458010558, guid: a8e53866588b7724eade220c16a4658c,
         type: 3}

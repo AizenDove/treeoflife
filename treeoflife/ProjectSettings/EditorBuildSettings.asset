@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main/Cave.unity
     guid: d3c4d4b78fce9a44b801c67d9c5957dc
+  - enabled: 1
+    path: Assets/Scenes/Main/Cave Back.unity
+    guid: 178ba7882904883408523dc651be3fe1
+  - enabled: 1
+    path: Assets/Scenes/Main/END DEAD.unity
+    guid: c370884fe6153da4d872f10d3d239d21
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b2a55e12492d75640b31b93209130533,
       type: 2}
